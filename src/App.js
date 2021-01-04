@@ -8,7 +8,7 @@ const App =()=>{
    <Container maxWidth="lg">
        <AppBar position="static" color="inherit"> 
        <Typography variant="h2" align="center"> Memories</Typography>
-        <img src={memories} alt="memories" height="60"/>
+        <img style={{alignSelf:"center"}} src={memories} alt="memories" height="120" width="120"/>
         </AppBar>
     </Container>
 
